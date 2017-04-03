@@ -1,0 +1,22 @@
+.CodeMirror {
+  border: 1px solid #666;
+  height: 500px;
+}
+
+.left {
+  width: 500px;
+  float: left
+}
+.right {
+  width: 500px;
+  margin: 0 20px;
+  float: left
+}
+
+.log .succ {
+  color: green
+}
+
+.log .error {
+  color: red
+}

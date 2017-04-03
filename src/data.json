@@ -1,0 +1,23 @@
+{
+  "display_on_map": [
+    {
+      "device_id": "device_1",
+      "access_token": "acc_token1",
+      "ustanova": "Ustanova prva",
+      "lat": 45.813594,
+      "lng": 15.942650
+    }
+  ],
+  "create_subscriptions": [
+    {
+      "device_id": "device_1",
+      "access_token": "acc_token1",
+      "publisher_events": ["amplitude"]
+    },
+    {
+      "device_id": "device_2",
+      "access_token": "acc_token2",
+      "publisher_events": ["amplitude"]
+    }
+  ]
+}
