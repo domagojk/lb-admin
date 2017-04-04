@@ -128,7 +128,9 @@ class App extends Component {
     let num = 0
     const next = () => {
       let currentDevice = parsed.create_subscriptions[num]
-
+      if (!currentDevice) {
+        return
+      }
       let subscribeFn = littlebits
         .defaults({ access_token: currentDevice.access_token })
         .subscribe.defaults({

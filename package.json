@@ -1,7 +1,7 @@
 {
   "name": "lb-admin",
   "version": "0.1.0",
-  "homepage": "https://domagojk.github.io/lb-admin/",
+  "homepage": "./",
   "private": true,
   "devDependencies": {
     "gh-pages": "^0.12.0",
