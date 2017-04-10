@@ -141,7 +141,7 @@ class App extends Component {
       
       subscribeFn((err, res) => {
         if (err) {
-          error(`error subscribing ${currentDevice.device_id} to ${subscribtion_url}`)
+          error(`error subscribing ${currentDevice.device_id} to ${subscribtion_url}: ${err.message}`)
           return
         }
         succ(`succesfully subscribed ${currentDevice.device_id} to ${subscribtion_url}`)
